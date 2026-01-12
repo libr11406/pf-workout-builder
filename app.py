@@ -74,7 +74,6 @@ def get_crowd():
     club_id = request.args.get('club_id', 'perry-hall-md')
     if not club_id:
         return jsonify({'crowd': 50, 'error': 'No club selected'})
-    driver = get_selenium_driver()
     
     try:
         crowd_val = get_historical_occupancy()

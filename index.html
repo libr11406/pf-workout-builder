@@ -70,7 +70,7 @@
             return;
         }
         try {
-            const response = await fetch(`http://127.0.0.1:5000/search_clubs?query=${query}`);
+            const response = await fetch(`https://pf-workout-builder.onrender.com/search_clubs?query=${query}`);
             if (response.status === 403) {
                 const errorData = await response.json();
                 alert(errorData.error);
@@ -108,7 +108,7 @@
         output.innerText = "Loading...";
         localStorage.setItem('savedClubId', clubId);
         try {
-            const response = await fetch(`http://127.0.0.1:5000/get_crowd?club_id=${clubId}`);
+            const response = await fetch(`https://pf-workout-builder.onrender.com/get_crowd?club_id=${clubId}`);
             const data = await response.json();
             
             if (data.crowd !== undefined){
@@ -135,7 +135,7 @@
         resultsDiv.innerHTML = "Processing...";
 
         try {
-            const response = await fetch(`http://127.0.0.1:5000/generate_workout?mins=${mins}&crowd=${crowd}&muscle=${muscles}`);
+            const response = await fetch(`https://pf-workout-builder.onrender.com/generate_workout?mins=${mins}&crowd=${crowd}&muscle=${muscles}`);
             
             const data = await response.json();
             
@@ -231,7 +231,7 @@
         if (savedId) {
             console.log("Loading saved gym ID:", savedId);
             try {
-                const response = await fetch(`http://127.0.0.1:5000/get_crowd?club_id=${savedId}`);
+                const response = await fetch(`https://pf-workout-builder.onrender.com/get_crowd?club_id=${savedId}`);
                 const data = await response.json();
             
                 document.getElementById('crowd').value = data.crowd;

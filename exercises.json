@@ -1,0 +1,348 @@
+{
+  "exercises": [
+    {
+      "name": "Barbell Bench Press",
+      "muscle_group": "Chest",
+      "equipment": "Rack, Barbell",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Dumbbell Chest Press",
+      "muscle_group": "Chest",
+      "equipment": "Dumbbell",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Lat Pulldown",
+      "muscle_group": "Back",
+      "equipment": "Machine",
+      "set duration": 45,
+      "recommended rest duration": 90,
+      "is_compound": true
+    },
+    {
+      "name": "Bicep Curls",
+      "muscle_group": "Arms",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Plank",
+      "muscle_group": "Core",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Tricep Pushdowns with Bar",
+      "muscle_group": "Arms",
+      "equipment": "Machine",
+      "set duration": 45,
+      "recommended rest duration": 60,
+      "is_compound": false
+    },
+    {
+      "name": "Squats",
+      "muscle_group": "Legs",
+      "equipment": "Rack, Barbell",
+      "set duration": 70,
+      "recommended rest duration": 150,
+      "is_compound": true
+    },
+    {
+      "name": "Deadlifts",
+      "muscle_group": "Back",
+      "equipment": "Rack, Barbell",
+      "set duration": 80,
+      "recommended rest duration": 180,
+      "is_compound": true
+    },
+    {
+      "name": "Barbell Shoulder Press",
+      "muscle_group": "Shoulders",
+      "equipment": "Barbell",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Leg Press",
+      "muscle_group": "Legs",
+      "equipment": "Machine",
+      "set duration": 70,
+      "recommended rest duration": 150,
+      "is_compound": true
+    },
+    {
+      "name": "Russian Twists",
+      "muscle_group": "Core",
+      "equipment": "Bodyweight",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Hammer Curls",
+      "muscle_group": "Arms",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Leg Curls",
+      "muscle_group": "Legs",
+      "equipment": "Machine",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Chest Flyes",
+      "muscle_group": "Chest",
+      "equipment": "Machine",
+      "set duration": 45,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Overhead Tricep Extension",
+      "muscle_group": "Arms",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Calf Raises",
+      "muscle_group": "Legs",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Dumbbell Rows",
+      "muscle_group": "Back",
+      "equipment": "Dumbbell",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": true
+    },
+    {
+      "name": "Sit-Ups",
+      "muscle_group": "Core",
+      "equipment": "Bodyweight",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Front Raises",
+      "muscle_group": "Shoulders",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Hip Thrusts",
+      "muscle_group": "Glutes",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Dumbbell Lateral Raises",
+      "muscle_group": "Shoulders",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Leg Extensions",
+      "muscle_group": "Legs",
+      "equipment": "Machine",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Pull-Ups",
+      "muscle_group": "Back",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Dumbbell Shoulder Press",
+      "muscle_group": "Shoulders",
+      "equipment": "Dumbbell",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Tricep Dips",
+      "muscle_group": "Arms",
+      "equipment": "Bodyweight",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Side Plank",
+      "muscle_group": "Core",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": false
+    },
+    {
+      "name": "Goblet Squats",
+      "muscle_group": "Legs",
+      "equipment": "Dumbbell",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Dumbbell Flyes",
+      "muscle_group": "Chest",
+      "equipment": "Dumbbell",
+      "set duration": 45,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Seated Row",
+      "muscle_group": "Back",
+      "equipment": "Machine",
+      "set duration": 50,
+      "recommended rest duration": 90,
+      "is_compound": true
+    },  
+    {
+      "name": "Chest Dips",
+      "muscle_group": "Chest",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Skull Crushers",
+      "muscle_group": "Arms",
+      "equipment": "Barbell",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Diamond Push-Ups",
+      "muscle_group": "Chest",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Cable Bicep Curls",
+      "muscle_group": "Arms",
+      "equipment": "Machine",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Face Pulls",
+      "muscle_group": "Shoulders",
+      "equipment": "Machine",
+      "set duration": 45,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Box Jumps",
+      "muscle_group": "Legs",
+      "equipment": "Bodyweight",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Chest Press Machine",
+      "muscle_group": "Chest",
+      "equipment": "Machine",
+      "set duration": 60,
+      "recommended rest duration": 120,
+      "is_compound": true
+    },
+    {
+      "name": "Tricep Rope Pushdowns",
+      "muscle_group": "Arms",
+      "equipment": "Machine",
+      "set duration": 40,
+      "recommended rest duration": 90,
+      "is_compound": false
+    },
+    {
+      "name": "Rear Delt Flyes",
+      "muscle_group": "Shoulders",
+      "equipment": "Dumbbell",
+      "set duration": 40,
+      "recommended rest duration": 60,
+      "is_compound": false
+    },
+    {
+      "name": "Dumbbell Deadlifts",
+      "muscle_group": "Back",
+      "equipment": "Dumbbell",
+      "set duration": 70,
+      "recommended rest duration": 150,
+      "is_compound": true
+    },
+    {
+    "name": "Barbell Bent Over Rows",
+    "muscle_group": "Back",
+    "equipment": "Barbell",
+    "set duration": 60,
+    "recommended rest duration": 120,
+    "is_compound": true
+    },
+    {
+    "name": "Incline Barbell Bench Press",
+    "muscle_group": "Chest",
+    "equipment": "Rack, Barbell",
+    "set duration": 60,
+    "recommended rest duration": 150,
+    "is_compound": true
+    },
+    {
+    "name": "Incline Dumbbell Press",
+    "muscle_group": "Chest",
+    "equipment": "Dumbbell",
+    "set duration": 60,
+    "recommended rest duration": 120,
+    "is_compound": true
+    },
+    {
+    "name": "Hack Squat",
+    "muscle_group": "Legs",
+    "equipment": "Machine",
+    "set duration": 70,
+    "recommended rest duration": 180,
+    "is_compound": true
+    }
+  ]
+}
